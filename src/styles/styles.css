@@ -1,0 +1,68 @@
+@import "./variable.css";
+
+#login-form{
+    
+    height: 100vh;
+    
+}
+.title-wrapper{
+    background: darkgreen;
+    width: 75%;
+}
+.title{
+    font-size: 2vw;
+}
+    header{
+        text-align: center;
+        background: var(--primary-background); 
+        background-size: cover ;
+        color: white;
+    }
+    img{
+        width: 200px;
+        margin: 40px 0px 0px 0px;
+        border-radius: 40px;
+        border: 7px solid white;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    h1{
+        font-size: 70px;
+    }
+    ul{
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.1);
+    }
+    li{
+        display: inline;
+        padding: 0pt 10px 0px 10px;
+        font-size: 30px;
+    }
+    article{
+        max-width: 500px;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    p{
+        text-align: justify;
+        font-size: 20px;
+    }
+    @media (max-width:500px){
+        .title-wrapper {
+            background: darkgray;
+        }
+        h1{
+            font-size: 36px;
+            padding: 5px;
+        }
+        li{
+            display: block;
+            padding: 5px;
+        }
+        img{
+            margin: 20px;
+        }
+    }
+    
